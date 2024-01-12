@@ -25,11 +25,6 @@ const storeItems = function (items) {
 const store = createStore({
   state() {
     return {
-      // todoItems: [
-      //   { id: 'one', item: 'first todo', completed: true },
-      //   { id: 'two', item: 'second todo', completed: false },
-      //   { id: 'thurd', item: 'thre todo', completed: false },
-      // ],
       todoItems: storedItems,
     }
   },

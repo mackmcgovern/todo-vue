@@ -19,6 +19,10 @@ export default {
   },
   methods: {
     addTask() {
+      // validating input
+      if (this.userInput.trim() === '') {
+        return
+      }
       const todo = {
         // creating a unique id for each item
         id: Date.now().toString(36),
