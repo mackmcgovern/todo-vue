@@ -44,6 +44,7 @@ input {
   cursor: initial;
   font-size: 2rem;
   font-weight: inherit;
+  max-width: 75%;
 }
 
 input::placeholder {
@@ -53,5 +54,11 @@ input::placeholder {
 
 p {
   margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    margin-top: 2rem;
+  }
 }
 </style>

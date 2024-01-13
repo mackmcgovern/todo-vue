@@ -47,13 +47,13 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 100%;
+  margin: 5rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
 }
 
-main {
-  min-width: 100%;
-  margin: 2rem auto;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
-  padding: 1rem;
+li {
+  list-style: none;
 }
 
 button {
@@ -70,7 +70,7 @@ button.delete {
   background-color: #8d4b4b;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   main {
     margin-top: 0;
   }
